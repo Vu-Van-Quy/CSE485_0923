@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 100px;
+    padding:20px 0px;
+}
+.cms{
+    width: 100%;
+}
+.nav-item ul li {
+  list-style: none;
+  padding: 10px;
+  line-height: 20px;
+  
+}
+.nav-item li a{
+    text-decoration: none;
+    color: orangered ;
+    padding: 10px;
+}
+.nav-item i{
+    margin-right: 5px;
+}
+.nav-item li:hover{
+
+}
+.header{
+    width: 100%;
+}
+.left{
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+.left i{
+    margin-right: 30px;
+}
+.right{
+    position: relative;
+    top: 20px;
+    right: 30px;
+}
+.right input{
+    height: 40px;
+}
+.header_users {
+    height: 80px
+}
+
+.menu{
+    border-radius: 0 50px 50px 0px;
+}
+.main{
+    padding: 30px;
+    /* background-color: rgb(223, 221, 221); */
+}
+.modules{
+    color: rgb(255,95,77);
+    padding: 5px;
+    background-color:rgb(255,240,238);
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.hover li:hover{
+    color: rgb(255,95,77);
+}
+.add_dele_user input{
+    width: 90px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+    line-height: 15px;
+}
+.delete{
+    background-color: white;
+    border:1px solid rgb(255,95,77);
+    font-weight: 600;
+    color: orange;
+}
+.add{
+    display: flex;
+    text-decoration: none;
+
+}
+.add p{
+    background-color: rgb(255,95,77);
+    line-height: 40px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px 0px 0px 5px;
+    color: white;
+    padding-left: 15px;
+}
+.add i{
+    background-color: rgb(255,95,77);
+    line-height: 40px;
+    height: 40px;
+    width: 30px;
+    border-radius: 0 5px 5px 0;
+    margin-left: 2px;
+    color: white;
+    padding-left: 5px;
+}
+.user{
+    padding-top: 20px;
+}
+.text p{
+    color: rgb(255,95,77) ;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.table{
+ padding-right: 50px;
+}
+
